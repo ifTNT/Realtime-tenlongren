@@ -4,8 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <title>及時天龍人產生器</title>
-    <script src="/lib/picojs/examples/camvas.js"></script>
-    <script src="/lib/picojs/pico.js"></script>
+    <script src="lib/picojs/examples/camvas.js"></script>
+    <script src="lib/picojs/pico.js"></script>
     <!-- <script src="/lib/fps_meter.js"></script> -->
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
     <style>
@@ -42,7 +42,7 @@
       img.onload = function() {
         initFaceDetect();
       };
-      img.src = "./helmet_layer_2x.png";
+      img.src = "helmet_layer_2x.png";
       function initFaceDetect() {
         /*
       		(0) check whether we're already running face detection
@@ -55,7 +55,7 @@
         var facefinder_classify_region = function(r, c, s, pixels, ldim) {
           return -1.0;
         };
-        var cascadeurl = "/lib/picojs/model/facefinder";
+        var cascadeurl = "lib/picojs/model/facefinder";
         fetch(cascadeurl)
           .then(function(response) {
             return response.arrayBuffer();

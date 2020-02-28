@@ -5,6 +5,7 @@ Realtime-tenlongren
 參考了 [lagendre/tenlongren](https://github.com/lagendre/tenlongren)  
 但是結合了Webcam和臉部偵測([picojs](https://github.com/tehnokv/picojs))  
 做畢專做到ㄎㄧㄤ掉時的副產物。  
+[線上版](https://iftnt.github.io/Realtime-tenlongren/)
 
 #### Author
 ifTNT @2020
